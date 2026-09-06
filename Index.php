@@ -31,7 +31,7 @@ if (isset($_SESSION["userSession"])) {
         <span></span>
       </button>
       <h1>Canrisk</h1>
-      <img src="../MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk" class="C-L" />
+      <img src="MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk" class="C-L" />
     </div>
 
     <!--  MENÚ LATERAL (SIDEBAR)  -->
@@ -65,10 +65,10 @@ if (isset($_SESSION["userSession"])) {
 
       <ul class="Info-nav">
         <li class="box-II">
-          <a href="../INICIO/Faq.N.html"><h4>Preguntas frecuentes</h4></a>
+          <a href="INICIO/Faq.N.html"><h4>Preguntas frecuentes</h4></a>
         </li>
         <li class="box-II">
-          <a href="../INICIO/Index.html"><h4>Inicio</h4></a>
+          <a href="INICIO/Index.html"><h4>Inicio</h4></a>
         </li>
       </ul>
 
@@ -85,7 +85,7 @@ if (isset($_SESSION["userSession"])) {
             <a id="langSwitchNL" class="lang-switchNL" href="IndexING.php" aria-label="Cambiar idioma / Switch language">EN</a>
 
             <div class="Photo">
-                <img src="../MULTIMEDIA/profile.png" class="PP-default" alt="Foto de perfil del usuario">
+                <img src="MULTIMEDIA/profile.png" class="PP-default" alt="Foto de perfil del usuario">
 
         </div>
       </div>
@@ -95,9 +95,9 @@ if (isset($_SESSION["userSession"])) {
     <!-- CAROUSEL DE IMAGENES -->
     <div class="carousel">
         <div class="carousel-track" id="track">
-        <div class="carousel-slide"><img src="../MULTIMEDIA/1.jpg" alt=></div>
-        <div class="carousel-slide"><img src="../MULTIMEDIA/2.jpg" alt=></div>
-        <div class="carousel-slide"><img src="../MULTIMEDIA/3.jpg" alt=></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/1.jpg" alt=></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/2.jpg" alt=></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/3.jpg" alt=></div>
         </div>
         <div class="carousel-container">
             <button class="carousel-button prev" onclick="prevSlide()">❮</button>
@@ -132,7 +132,7 @@ if (isset($_SESSION["userSession"])) {
 </div>
     </div>
         <div class="action-container" style="padding-top: 0;">
-                <a href="../HTML/ESPANOL/register.php" class="btn-quizz">Regístrate hoy y sé parte del cambio</a>
+                <a href="HTML/ESPANOL/register.php" class="btn-quizz">Regístrate hoy y sé parte del cambio</a>
     </div>
     </header>
 
@@ -252,9 +252,9 @@ if (isset($_SESSION["userSession"])) {
         <div class="footer-social">
             <h2 class="Title_2">Redes sociales de Canrisk!</h2>
             <ul class="Social">
-                <li><a href="https://www.instagram.com/canrisk/" target="_blank"><img src="../MULTIMEDIA/instagram.png" class="Inst-IMG" alt="Instagram logo"><p class="Inst-txt">Instagram</p></a></li>
-                <li><a href="https://www.facebook.com/Canrisk-110882646091155" target="_blank"><img src="../MULTIMEDIA/facebook.png" class="Face-IMG" alt="Facebook logo"><p class="Face-txt">Facebook</p></a></li>
-                <li><a href="https://twitter.com/Canrisk1" target="_blank"><img src="../MULTIMEDIA/gorjeo.png" class="Twit-IMG" alt="Twitter"><p class="Twit-txt">Twitter</p></a></li>
+                <li><a href="https://www.instagram.com/canrisk/" target="_blank"><img src="MULTIMEDIA/instagram.png" class="Inst-IMG" alt="Instagram logo"><p class="Inst-txt">Instagram</p></a></li>
+                <li><a href="https://www.facebook.com/Canrisk-110882646091155" target="_blank"><img src="MULTIMEDIA/facebook.png" class="Face-IMG" alt="Facebook logo"><p class="Face-txt">Facebook</p></a></li>
+                <li><a href="https://twitter.com/Canrisk1" target="_blank"><img src="MULTIMEDIA/gorjeo.png" class="Twit-IMG" alt="Twitter"><p class="Twit-txt">Twitter</p></a></li>
             </ul>
         </div>
         </div>
