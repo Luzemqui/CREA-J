@@ -39,7 +39,7 @@
     "helping.php": "HTML/ESPANOL/help.php",
     "quizzing.php": "HTML/ESPANOL/quizz.php",
     "faqing.php": "HTML/ESPANOL/faq.php",
-    "indexing.php": "INICIO/Index.php",
+    "indexing.php": "index.php",
     "faq.n-ing.php": "INICIO/Faq.N.php",
   };
 

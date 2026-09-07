@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <img src="../../MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk">
             <span>Canrisk</span>
         </a>
-        <form action="" method="POST" novalidate>
+        <form action="" method="POST">
             <h1>Iniciar Sesión</h1>
             <?php if (!empty($error)): ?>
                 <div class="auth-error" role="alert"><?php echo htmlspecialchars($error, ENT_QUOTES); ?></div>
@@ -104,6 +104,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </form>
     </div>
 
-    <script src="../../JS/auth-validacion.js"></script>
 </body>
 </html>

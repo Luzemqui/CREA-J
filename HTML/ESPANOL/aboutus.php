@@ -2,7 +2,7 @@
 session_start();
 if (!isset($_SESSION["userSession"])) {
     $isEnglish   = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
-    $redirectUrl = $isEnglish ? "LoginING.php" : "login.php";
+    $redirectUrl = $isEnglish ? "loginING.php" : "login.php";
     
     header("Location: " . $redirectUrl);
     exit; 
@@ -73,7 +73,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
         <a
           id="langSwitch"
           class="lang-switch"
-          href="<?php echo $isEnglish ? '../Principal.php' : 'INGLES/PrincipalING.php'; ?>"
+          href="<?php echo $isEnglish ? '../ESPANOL/Principal.php' : '../INGLES/PrincipalING.php'; ?>"
           aria-label="Cambiar idioma / Switch language"
           ><?php echo $isEnglish ? 'ES' : 'EN'; ?></a
         >

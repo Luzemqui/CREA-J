@@ -84,7 +84,7 @@ $loginUrl = "loginING.php";
         <span>Canrisk</span>
       </a>
       <!-- Form -->
-      <form action="" method="POST" novalidate>
+      <form action="" method="POST">
         <h1>Create your Canrisk account</h1>
         <?php if (!empty($error)): ?>
             <div class="auth-error" role="alert"><?php echo htmlspecialchars($error, ENT_QUOTES); ?></div>
@@ -123,6 +123,5 @@ $loginUrl = "loginING.php";
       </form>
     </div>
 
-    <script src="../../JS/auth-validacion.js"></script>
   </body>
 </html>

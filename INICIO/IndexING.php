@@ -47,7 +47,7 @@ if (isset($_SESSION["userSession"])) {
                 <li class="box-I"><a href="../HTML/INGLES/loginING.php"><h4>Log in</h4></a></li>
                 <li class="box-I"><a href="../HTML/INGLES/registerING.php"><h4>Sign Up</h4></a></li>
             </ul>
-            <a id="langSwitchNL" class="lang-switchNL" href="../INICIO/Index.php" aria-label="Cambiar idioma / Switch language">ES</a>
+            <a id="langSwitchNL" class="lang-switchNL" href="../index.php" aria-label="Cambiar idioma / Switch language">ES</a>
             <div class="Photo">
                 <img src="../MULTIMEDIA/profile.png" class="PP-default" alt="User profile picture">
             </div>
@@ -216,9 +216,9 @@ if (isset($_SESSION["userSession"])) {
         <div class="footer-social">
             <h2 class="Title_2">Canrisk's social media!</h2>
             <ul class="Social">
-                <li><a href="https://www.instagram.com/canrisk/" target="_blank"><img src="../../Canrisk/MULTIMEDIA/instagram.png" class="Inst-IMG" alt="Instagram logo"><p class="Inst-txt">Instagram</p></a></li>
-                <li><a href="https://www.facebook.com/Canrisk-110882646091155" target="_blank"><img src="../../Canrisk/MULTIMEDIA/facebook.png" class="Face-IMG" alt="Facebook logo"><p class="Face-txt">Facebook</p></a></li>
-                <li><a href="https://twitter.com/Canrisk1" target="_blank"><img src="../../Canrisk/MULTIMEDIA/gorjeo.png" class="Twit-IMG" alt="Twitter"><p class="Twit-txt">Twitter</p></a></li>
+                <li><a href="https://www.instagram.com/canrisk/" target="_blank"><img src="../MULTIMEDIA/instagram.png" class="Inst-IMG" alt="Instagram logo"><p class="Inst-txt">Instagram</p></a></li>
+                <li><a href="https://www.facebook.com/Canrisk-110882646091155" target="_blank"><img src="../MULTIMEDIA/facebook.png" class="Face-IMG" alt="Facebook logo"><p class="Face-txt">Facebook</p></a></li>
+                <li><a href="https://twitter.com/Canrisk1" target="_blank"><img src="../MULTIMEDIA/gorjeo.png" class="Twit-IMG" alt="Twitter"><p class="Twit-txt">Twitter</p></a></li>
             </ul>
             </div>
         </div>

@@ -2,7 +2,7 @@
 session_start();
 if (!isset($_SESSION["userSession"])) {
     $isEnglish   = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
-    $redirectUrl = $isEnglish ? "LoginING.php" : "login.php";
+    $redirectUrl = $isEnglish ? "loginING.php" : "login.php";
     
     header("Location: " . $redirectUrl);
     exit; 
@@ -96,7 +96,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
         <a
           id="langSwitch"
           class="lang-switch"
-          href="<?php echo $isEnglish ? '../Principal.php' : 'INGLES/PrincipalING.php'; ?>"
+          href="<?php echo $isEnglish ? '../ESPANOL/Principal.php' : '../INGLES/PrincipalING.php'; ?>"
           aria-label="Cambiar idioma / Switch language"
           ><?php echo $isEnglish ? 'ES' : 'EN'; ?></a
         >
@@ -130,7 +130,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
         <?php else: ?>
           <div class="Photo">
             <a
-              href="login.php"
+              href="loginING.php"
               aria-label="Iniciar sesión / Login"
             >
               <svg
@@ -230,7 +230,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=1"
+            href="Contacto-detalleING.php?id=1"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -274,7 +274,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=2"
+            href="Contacto-detalleING.php?id=2"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -318,7 +318,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=3"
+            href="Contacto-detalleING.php?id=3"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -362,7 +362,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=4"
+            href="Contacto-detalleING.php?id=4"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -406,7 +406,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             Service Mon - Fri: 7:00 AM - 4:00 PM
           </p>
           <a
-            href="Contacto-Detalle.php?id=5"
+            href="Contacto-detalleING.php?id=5"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -450,7 +450,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=6"
+            href="Contacto-detalleING.php?id=6"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -494,7 +494,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=7"
+            href="Contacto-detalleING.php?id=7"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -538,7 +538,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=8"
+            href="Contacto-detalleING.php?id=8"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -582,7 +582,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=9"
+            href="Contacto-detalleING.php?id=9"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -626,7 +626,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=10"
+            href="Contacto-detalleING.php?id=10"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -670,7 +670,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=11"
+            href="Contacto-detalleING.php?id=11"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -714,7 +714,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=12"
+            href="Contacto-detalleING.php?id=12"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -758,7 +758,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=13"
+            href="Contacto-detalleING.php?id=13"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -802,7 +802,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=14"
+            href="Contacto-detalleING.php?id=14"
             style="
               display: inline-block;
               margin-top: 15px;
@@ -846,7 +846,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             24-hour service.
           </p>
           <a
-            href="Contacto-Detalle.php?id=15"
+            href="Contacto-detalleING.php?id=15"
             style="
               display: inline-block;
               margin-top: 15px;

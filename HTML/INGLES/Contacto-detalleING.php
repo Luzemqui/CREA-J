@@ -2,7 +2,7 @@
 session_start();
 if (!isset($_SESSION["userSession"])) {
     $isEnglish   = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
-    $redirectUrl = $isEnglish ? "LoginING.php" : "login.php";
+    $redirectUrl = $isEnglish ? "loginING.php" : "login.php";
     
     header("Location: " . $redirectUrl);
     exit; 
@@ -96,7 +96,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
         <a
           id="langSwitch"
           class="lang-switch"
-          href="<?php echo $isEnglish ? '../Principal.php' : 'INGLES/PrincipalING.php'; ?>"
+          href="<?php echo $isEnglish ? '../ESPANOL/Principal.php' : '../INGLES/PrincipalING.php'; ?>"
           aria-label="Cambiar idioma / Switch language"
           ><?php echo $isEnglish ? 'ES' : 'EN'; ?></a
         >
@@ -130,7 +130,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
         <?php else: ?>
           <div class="Photo">
             <a
-              href="login.php"
+              href="loginING.php"
               aria-label="Iniciar sesión / Login"
             >
               <svg
@@ -154,7 +154,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
     </nav>
 
     <div class="detalle-wrapper">
-      <a href="Contacto.php" class="detalle-volver"
+      <a href="ContactoING.php" class="detalle-volver"
         >&larr; Back to contacts page</a
       >
       <div class="detalle-card" id="detalleCard"></div>

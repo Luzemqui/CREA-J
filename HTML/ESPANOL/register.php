@@ -81,7 +81,7 @@ $loginUrl    = $isEnglish ? "loginING.php" : "login.php";
             <img src="../../MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk">
             <span>Canrisk</span>
         </a>
-        <form action="" method="POST" novalidate>
+        <form action="" method="POST">
             <h1>¡Crea una cuenta de Canrisk!</h1>
             <?php if (!empty($error)): ?>
                 <div class="auth-error" role="alert"><?php echo htmlspecialchars($error, ENT_QUOTES); ?></div>
@@ -120,6 +120,5 @@ $loginUrl    = $isEnglish ? "loginING.php" : "login.php";
         </form>
     </div>
 
-    <script src="../../JS/auth-validacion.js"></script>
 </body>
 </html>

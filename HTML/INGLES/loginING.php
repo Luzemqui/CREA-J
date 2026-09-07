@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <span>Canrisk</span>
       </a>
       <!-- Form -->
-      <form action="" method="POST" novalidate>
+      <form action="" method="POST">
         <h1>Log in to Canrisk</h1>
         <?php if (!empty($error)): ?>
             <div class="auth-error" role="alert"><?php echo htmlspecialchars($error, ENT_QUOTES); ?></div>
@@ -104,6 +104,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       </form>
     </div>
 
-    <script src="../../JS/auth-validacion.js"></script>
   </body>
 </html>

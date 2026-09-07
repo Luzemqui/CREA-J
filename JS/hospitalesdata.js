@@ -76,7 +76,7 @@ const hospitalesData = [
     horario: "Servicio Lun - Vie: 7:00 AM - 4:00 PM",
     descripcion:
       "Una institución especializada dedicada exclusivamente a la investigación, prevención y tratamiento integral de todos los tipos de cáncer en adultos. Cuenta con programas de apoyo y prevención.",
-    imagen: "../../MULTIMEDIA/Instituyo del Cáncer.jpg",
+    imagen: "../../MULTIMEDIA/Instituyo del cancer.jpg",
     servicios: [
       "Oncología Médica",
       "Radioterapia",
