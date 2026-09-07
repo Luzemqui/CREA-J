@@ -16,10 +16,10 @@
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 // --- Datos de conexión (edita estos 4 valores para InfinityFree) ---
-$DB_HOST = 'localhost';
-$DB_USER = 'root';
-$DB_PASS = '';
-$DB_NAME = 'canrisk';
+$DB_HOST = 'sql06.infinityfree.com';
+$DB_USER = 'if0_42849971';
+$DB_PASS = 'WHpC4EP3DUS3';
+$DB_NAME = 'if0_42849971_canrisk';
 
 try {
     $conectar = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);

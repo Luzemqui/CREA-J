@@ -14,12 +14,12 @@ if (isset($_SESSION["userSession"])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frequently Asked Questions - Canrisk</title>
-    <link rel="stylesheet" href="../CSS/Style-Info.css" />
-    <link rel="stylesheet" href="../CSS/faq.css" />
+    <link rel="stylesheet" href="CSS/Style-Info.css" />
+    <link rel="stylesheet" href="CSS/faq.css" />
     <link
       rel="icon"
       type="image/png"
-      href="../MULTIMEDIA/Canrisk LOGO.svg"
+      href="MULTIMEDIA/Canrisk LOGO.svg"
     />
   </head>
   <body>
@@ -35,7 +35,7 @@ if (isset($_SESSION["userSession"])) {
         <span></span>
       </button>
       <h1>Canrisk</h1>
-      <img src="../MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk" class="C-L" />
+      <img src="MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk" class="C-L" />
     </div>
 
     <!-- SIDE MENU (SIDEBAR) -->
@@ -46,7 +46,7 @@ if (isset($_SESSION["userSession"])) {
         <span></span>
       </div>
       <ul class="sidebar-list">
-        <li><a href="../INICIO/IndexING.php">Home &rarr;</a></li>
+        <li><a href="IndexING.php">Home &rarr;</a></li>
       </ul>
     </nav>
 
@@ -69,34 +69,34 @@ if (isset($_SESSION["userSession"])) {
 
       <ul class="Info-nav">
         <li class="box-II">
-          <a href="../INICIO/Faq.N-ING.php"
+          <a href="Faq.N-ING.php"
             ><h4>Frequently Asked Questions</h4></a
           >
         </li>
         <li class="box-II">
-          <h4><a href="../INICIO/IndexING.php">Home Page</a></h4>
+          <h4><a href="IndexING.php">Home Page</a></h4>
         </li>
       </ul>
 
       <div class="right-group">
         <ul class="Index">
           <li class="box-I">
-            <a href="../HTML/INGLES/loginING.php"><h4>Log in</h4></a>
+            <a href="HTML/INGLES/loginING.php"><h4>Log in</h4></a>
           </li>
           <li class="box-I">
-            <a href="../HTML/INGLES/registerING.php"><h4>Sign Up</h4></a>
+            <a href="HTML/INGLES/registerING.php"><h4>Sign Up</h4></a>
           </li>
         </ul>
         <a
           id="langSwitch"
           class="lang-switch"
-          href="../INICIO/Faq.N.php"
+          href="Faq.N.php"
           aria-label="Cambiar idioma / Switch language"
           >ES</a
         >
         <div class="Photo">
           <img
-            src="../MULTIMEDIA/profile.png"
+            src="MULTIMEDIA/profile.png"
             class="PP-default"
             alt="Foto de perfil del usuario"
           />
@@ -124,7 +124,7 @@ if (isset($_SESSION["userSession"])) {
       </div>
       <div class="IMG">
         <img
-          src="../MULTIMEDIA/signodeinterrogacion.avif"
+          src="MULTIMEDIA/signodeinterrogacion.avif"
           alt="Evaluación de conocimiento sobre el cáncer"
           class="IMG-TXT"
         />
@@ -274,7 +274,7 @@ if (isset($_SESSION["userSession"])) {
             Listening without judgment, asking what they need instead of making
             assumptions, and accompanying them to medical appointments if they
             wish can be very helpful. Visit our
-            <a href="../HTML/INGLES/psycho-helpING.php">Psychological Support</a> section for
+            <a href="HTML/INGLES/psycho-helpING.php">Psychological Support</a> section for
             more practical guidance.
           </div>
         </details>
@@ -297,7 +297,7 @@ if (isset($_SESSION["userSession"])) {
             In El Salvador, there are free helplines such as the ISSS
             "#TeEscucho" service (7071-1302, available 24/7) or FOSALUD. You can
             find full details in our
-            <a href="../HTML/INGLES/psycho-helpING.php">Psychological Support</a> section.
+            <a href="HTML/INGLES/psycho-helpING.php">Psychological Support</a> section.
           </div>
         </details>
       </div>
@@ -404,7 +404,7 @@ if (isset($_SESSION["userSession"])) {
             <li>
               <a href="https://www.instagram.com/canrisk/" target="_blank"
                 ><img
-                  src="../MULTIMEDIA/instagram.png"
+                  src="MULTIMEDIA/instagram.png"
                   class="Inst-IMG"
                   alt="Instagram logo"
                 />
@@ -416,7 +416,7 @@ if (isset($_SESSION["userSession"])) {
                 href="https://www.facebook.com/Canrisk-110882646091155"
                 target="_blank"
                 ><img
-                  src="../MULTIMEDIA/facebook.png"
+                  src="MULTIMEDIA/facebook.png"
                   class="Face-IMG"
                   alt="Facebook logo"
                 />
@@ -426,7 +426,7 @@ if (isset($_SESSION["userSession"])) {
             <li>
               <a href="https://twitter.com/Canrisk1" target="_blank"
                 ><img
-                  src="../MULTIMEDIA/gorjeo.png"
+                  src="MULTIMEDIA/gorjeo.png"
                   class="Twit-IMG"
                   alt="Twitter"
                 />
@@ -486,6 +486,6 @@ if (isset($_SESSION["userSession"])) {
       });
     </script>
 
-    <script src="../JS/site.js" defer></script>
+    <script src="JS/site.js" defer></script>
   </body>
 </html>

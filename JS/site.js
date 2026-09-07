@@ -25,8 +25,8 @@
     "ficha1.php": "HTML/INGLES/helpING.php",
     "quizz.php": "HTML/INGLES/quizzING.php",
     "faq.php": "HTML/INGLES/faqING.php",
-    "index.php": "INICIO/IndexING.php",
-    "faq.n.php": "INICIO/Faq.N-ING.php",
+    "index.php": "IndexING.php",
+    "faq.n.php": "Faq.N-ING.php",
 
     // Páginas en inglés -> español
     "principaling.php": "HTML/ESPANOL/Principal.php",
@@ -40,7 +40,7 @@
     "quizzing.php": "HTML/ESPANOL/quizz.php",
     "faqing.php": "HTML/ESPANOL/faq.php",
     "indexing.php": "index.php",
-    "faq.n-ing.php": "INICIO/Faq.N.php",
+    "faq.n-ing.php": "Faq.N.php",
   };
 
   function currentBasename() {
@@ -57,7 +57,6 @@
   function rootPrefix() {
     var path = window.location.pathname;
     if (/\/HTML\/(ESPANOL|INGLES)\//i.test(path)) return "../../";
-    if (/\/INICIO\//i.test(path)) return "../";
     return "";
   }
 

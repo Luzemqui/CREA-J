@@ -16,7 +16,7 @@ $success = false;
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $nombre     = trim($_POST["name"] ?? "");
     $usuario    = trim($_POST["usuario"] ?? "");
-    $contrasena = trim($_POST["contrasena"] ?? "");
+    $contrasena = $_POST["contrasena"] ?? "";
 
     /* ---------- 1. Validación Simplificada (Estilo "Reg") ---------- */
     // Verificamos si hay campos vacíos de forma directa

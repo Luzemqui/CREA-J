@@ -23,6 +23,17 @@
   font-size: 1.8rem;
 }
 
+.demo-notice {
+  background: #fff8e1;
+  border-left: 4px solid #d4a017;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #5c4a12;
+  line-height: 1.4;
+}
+
 .beneficiary-info {
   background: #fdf2f6;
   border-left: 4px solid #a83862;

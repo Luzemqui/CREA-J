@@ -14,19 +14,38 @@ if (isset($_SESSION["userSession"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canrisk - Cancer information and support</title>
-    <link rel="stylesheet" href="../CSS/Style-Info.css">
-    <link rel="stylesheet" href="../CSS/principal.css">
-    <link rel="stylesheet" href="../CSS/cancer.css">
-    <link rel="icon" type="image/png" href="../MULTIMEDIA/Canrisk LOGO.svg">
+    <link rel="stylesheet" href="CSS/Style-Info.css">
+    <link rel="stylesheet" href="CSS/principal.css">
+    <link rel="stylesheet" href="CSS/cancer.css">
+    <link rel="icon" type="image/png" href="MULTIMEDIA/Canrisk LOGO.svg">
 </head>
 <body>
 
     <!-- LOGO AND SIDEBAR TOGGLE BUTTON -->
     <div class="navbar-brand">
+        <button class="hamburger-sidebar-btn" id="sidebarBtn" aria-label="Open side menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <h1>Canrisk</h1>
-        <img src="../MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk" class="C-L">
+        <img src="MULTIMEDIA/Canrisk LOGO.svg" alt="Canrisk" class="C-L">
     </div>
 
+    <!-- SIDE MENU -->
+    <nav class="sidebar-menu" id="sidebarMenu">
+        <div class="sidebar-decoracion">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="sidebar-list">
+            <li><a href="IndexING.php">Home &rarr;</a></li>
+        </ul>
+    </nav>
+
+    <!-- DARK OVERLAY WHEN SIDEBAR IS OPEN -->
+    <div class="overlay-menu" id="menuOverlay"></div>
 
     <!-- TOP NAVIGATION BAR -->
     <nav class="navbar" id="mainNav">
@@ -38,18 +57,18 @@ if (isset($_SESSION["userSession"])) {
         </button>
 
         <ul class="Info-nav">
-            <li class="box-II"><h4><a href="../INICIO/Faq.N-ING.php">Frequently Asked Questions</a></h4></li>
-            <li class="box-II"><a href="../INICIO/IndexING.php"><h4>Home Page</h4></a></li>
+            <li class="box-II"><h4><a href="Faq.N-ING.php">Frequently Asked Questions</a></h4></li>
+            <li class="box-II"><a href="IndexING.php"><h4>Home Page</h4></a></li>
         </ul>
 
         <div class="right-group">
             <ul class="Index">
-                <li class="box-I"><a href="../HTML/INGLES/loginING.php"><h4>Log in</h4></a></li>
-                <li class="box-I"><a href="../HTML/INGLES/registerING.php"><h4>Sign Up</h4></a></li>
+                <li class="box-I"><a href="HTML/INGLES/loginING.php"><h4>Log in</h4></a></li>
+                <li class="box-I"><a href="HTML/INGLES/registerING.php"><h4>Sign Up</h4></a></li>
             </ul>
-            <a id="langSwitchNL" class="lang-switchNL" href="../index.php" aria-label="Cambiar idioma / Switch language">ES</a>
+            <a id="langSwitchNL" class="lang-switchNL" href="index.php" aria-label="Cambiar idioma / Switch language">ES</a>
             <div class="Photo">
-                <img src="../MULTIMEDIA/profile.png" class="PP-default" alt="User profile picture">
+                <img src="MULTIMEDIA/profile.png" class="PP-default" alt="User profile picture">
             </div>
         </div>
 
@@ -59,9 +78,9 @@ if (isset($_SESSION["userSession"])) {
     <!-- CAROUSEL DE IMAGENES -->
     <div class="carousel">
         <div class="carousel-track" id="track">
-        <div class="carousel-slide"><img src="../MULTIMEDIA/1.jpg" alt=></div>
-        <div class="carousel-slide"><img src="../MULTIMEDIA/5.jpg" alt=></div>
-        <div class="carousel-slide"><img src="../MULTIMEDIA/6.jpg" alt=></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/1.jpg" alt="Canrisk - image 1"></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/5.jpg" alt="Canrisk - image 2"></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/6.jpg" alt="Canrisk - image 3"></div>
         </div>
         <div class="carousel-container">
             <button class="carousel-button prev" onclick="prevSlide()">❮</button>
@@ -96,7 +115,7 @@ if (isset($_SESSION["userSession"])) {
 </div>
     </div>
         <div class="action-container" style="padding-top: 0;">
-                <a href="../HTML/ESPANOL/register.php" class="btn-quizz">Register today and be part of the change</a>
+                <a href="HTML/ESPANOL/register.php" class="btn-quizz">Register today and be part of the change</a>
     </div>
     </header>
 
@@ -190,7 +209,7 @@ if (isset($_SESSION["userSession"])) {
             });
         }
     </script>
-    <script src="../JS/site.js" defer></script>
+    <script src="JS/site.js" defer></script>
 
     <!-- FOOTER -->
     <footer>
@@ -216,9 +235,9 @@ if (isset($_SESSION["userSession"])) {
         <div class="footer-social">
             <h2 class="Title_2">Canrisk's social media!</h2>
             <ul class="Social">
-                <li><a href="https://www.instagram.com/canrisk/" target="_blank"><img src="../MULTIMEDIA/instagram.png" class="Inst-IMG" alt="Instagram logo"><p class="Inst-txt">Instagram</p></a></li>
-                <li><a href="https://www.facebook.com/Canrisk-110882646091155" target="_blank"><img src="../MULTIMEDIA/facebook.png" class="Face-IMG" alt="Facebook logo"><p class="Face-txt">Facebook</p></a></li>
-                <li><a href="https://twitter.com/Canrisk1" target="_blank"><img src="../MULTIMEDIA/gorjeo.png" class="Twit-IMG" alt="Twitter"><p class="Twit-txt">Twitter</p></a></li>
+                <li><a href="https://www.instagram.com/canrisk/" target="_blank"><img src="MULTIMEDIA/instagram.png" class="Inst-IMG" alt="Instagram logo"><p class="Inst-txt">Instagram</p></a></li>
+                <li><a href="https://www.facebook.com/Canrisk-110882646091155" target="_blank"><img src="MULTIMEDIA/facebook.png" class="Face-IMG" alt="Facebook logo"><p class="Face-txt">Facebook</p></a></li>
+                <li><a href="https://twitter.com/Canrisk1" target="_blank"><img src="MULTIMEDIA/gorjeo.png" class="Twit-IMG" alt="Twitter"><p class="Twit-txt">Twitter</p></a></li>
             </ul>
             </div>
         </div>

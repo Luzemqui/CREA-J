@@ -16,6 +16,7 @@ if (isset($_SESSION["userSession"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canrisk - Información y apoyo sobre el cáncer</title>
     <link rel="stylesheet" href="CSS/Style-Info.css">
+    <link rel="stylesheet" href="CSS/principal.css">
     <link rel="icon" type="image/png" href="MULTIMEDIA/Canrisk LOGO.svg">
 </head>
 <body>
@@ -65,7 +66,7 @@ if (isset($_SESSION["userSession"])) {
 
       <ul class="Info-nav">
         <li class="box-II">
-          <a href="INICIO/Faq.N.php"><h4>Preguntas frecuentes</h4></a>
+          <a href="Faq.N.php"><h4>Preguntas frecuentes</h4></a>
         </li>
         <li class="box-II">
           <a href="index.php"><h4>Inicio</h4></a>
@@ -77,7 +78,7 @@ if (isset($_SESSION["userSession"])) {
                 <li class="box-I"><a href="HTML/ESPANOL/login.php"><h4>Iniciar Sesión</h4></a></li>
                 <li class="box-I"><a href="HTML/ESPANOL/register.php"><h4>Registrarse</h4></a></li>
             </ul>
-            <a id="langSwitchNL" class="lang-switchNL" href="INICIO/IndexING.php" aria-label="Cambiar idioma / Switch language">EN</a>
+            <a id="langSwitchNL" class="lang-switchNL" href="IndexING.php" aria-label="Cambiar idioma / Switch language">EN</a>
 
             <div class="Photo">
                 <img src="MULTIMEDIA/profile.png" class="PP-default" alt="Foto de perfil del usuario">
@@ -90,9 +91,9 @@ if (isset($_SESSION["userSession"])) {
     <!-- CAROUSEL DE IMAGENES -->
     <div class="carousel">
         <div class="carousel-track" id="track">
-        <div class="carousel-slide"><img src="MULTIMEDIA/1.jpg" alt=></div>
-        <div class="carousel-slide"><img src="MULTIMEDIA/2.jpg" alt=></div>
-        <div class="carousel-slide"><img src="MULTIMEDIA/3.jpg" alt=></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/1.jpg" alt="Canrisk - imagen 1"></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/2.jpg" alt="Canrisk - imagen 2"></div>
+        <div class="carousel-slide"><img src="MULTIMEDIA/3.jpg" alt="Canrisk - imagen 3"></div>
         </div>
         <div class="carousel-container">
             <button class="carousel-button prev" onclick="prevSlide()">❮</button>

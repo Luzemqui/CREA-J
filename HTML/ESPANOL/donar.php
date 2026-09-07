@@ -167,6 +167,13 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
         <div id="formContainer">
           <h1>Realizar una Donación</h1>
 
+          <div class="demo-notice" role="note">
+            <strong>Aviso:</strong> Canrisk es un proyecto académico y no
+            recauda fondos reales. Este formulario es solo una
+            <strong>simulación</strong> con fines educativos: no se procesa
+            ningún pago ni se solicitan datos financieros.
+          </div>
+
           <div class="beneficiary-info" id="beneficiaryBox">
             Cargando información del beneficiario...
           </div>
@@ -280,7 +287,7 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
             </div>
 
             <button type="submit" class="btn-donar-submit">
-              Completar Donación
+              Simular Donación
             </button>
           </form>
         </div>
@@ -290,8 +297,9 @@ $isEnglish = strpos($_SERVER["REQUEST_URI"], "/INGLES/") !== false;
           <h2>¡Muchas gracias por tu apoyo!</h2>
 
           <p>
-            Tu donación ha sido recibida exitosamente. Cada aporte ayuda a
-            cambiar una vida.
+            Esta es una simulación: no se ha realizado ningún cargo ni se ha
+            procesado un pago real. En un proyecto real, este es el punto
+            donde cada aporte ayudaría a cambiar una vida.
           </p>
 
           <br />
