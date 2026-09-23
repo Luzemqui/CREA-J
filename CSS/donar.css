@@ -1,0 +1,169 @@
+/* ============================================================
+   CANRISK — donar.css
+   Estilos específicos para la página de Donaciones
+   ============================================================ */
+
+.donation-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.donation-card {
+  background: var(--surface, #ffffff);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-color, #f4d3e2);
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+
+.donation-card h1 {
+  color: var(--color-primary-dark, #a83862);
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.demo-notice {
+  background: #fff8e1;
+  border-left: 4px solid #d4a017;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #5c4a12;
+  line-height: 1.4;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+html[data-theme="dark"] .demo-notice {
+  background: #332a10;
+  border-left-color: #d4a017;
+  color: #e8c876;
+}
+
+.beneficiary-info {
+  background: var(--surface-soft, #fdf2f6);
+  border-left: 4px solid var(--color-primary-dark, #a83862);
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  font-size: 1rem;
+  color: var(--text-main, #333);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: var(--text-main, #333);
+  font-size: 0.95rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #eed4dd;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+  border-color: var(--color-primary, #a83862);
+  box-shadow: 0 0 0 3px rgba(168, 56, 98, 0.15);
+  outline: none;
+}
+
+.amount-presets {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.preset-btn {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid var(--color-primary-dark, #a83862);
+  background: var(--surface, #ffffff);
+  color: var(--color-primary-dark, #a83862);
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.preset-btn:hover,
+.preset-btn.active {
+  background: var(--color-primary-hover, #a83862);
+  color: #ffffff;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.btn-donar-submit {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  background-color: var(--color-primary-hover, #a83862);
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(168, 56, 98, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.btn-donar-submit:hover {
+  background-color: #8c2d50;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(168, 56, 98, 0.35);
+}
+
+.success-message {
+  display: none;
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media (max-width: 480px) {
+  .donation-wrapper {
+    margin: 20px auto;
+    padding: 0 12px;
+  }
+
+  .donation-card {
+    padding: 24px 18px;
+  }
+
+  .amount-presets {
+    flex-wrap: wrap;
+  }
+
+  .preset-btn {
+    flex: 1 1 calc(50% - 5px);
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
